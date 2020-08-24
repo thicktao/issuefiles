@@ -6,11 +6,7 @@ namespace ImageClassifyTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("first training being...");
-            ImageClassifyTrainTest.SaveRetrainModel();
-            Console.WriteLine("first training completed,second training begin ...");
-            ImageClassifyTrainTest.SecondTrainAndPredit();
-            Console.WriteLine("second training completed");
+            ImageClassifyTrainTest.SaveRetrainModel2();
             Console.ReadKey();
         }
     }
